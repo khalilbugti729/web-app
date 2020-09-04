@@ -202,7 +202,7 @@ const Main = () => {
           item4="Support"
         />
         <Price
-          pkgName="Starter Pack"
+          pkgName="Regular Pack / Popular"
           pkgPrice="$138"
           item1="Listings Included: 10"
           item2="Duration (months): 3"
@@ -210,12 +210,12 @@ const Main = () => {
           item4="Support"
         />
         <Price
-          pkgName="Starter Pack"
-          pkgPrice="$138"
-          item1="Listings Included: 10"
-          item2="Duration (months): 3"
-          item3="Online Booking"
-          item4="Support"
+          pkgName="Advanced Pack"
+          pkgPrice="$338"
+          item1="Listings Included: Unlimited"
+          item2="Featured Included: 100"
+          item3="VIP Support"
+          item4="Ads Included"
         />
       </div>
     </div>
