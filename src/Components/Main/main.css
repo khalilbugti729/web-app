@@ -7,7 +7,8 @@
     padding-top: 9rem;
     height: 70vh;
     width: 100%;
-    background-image: url(https://thumbs.dreamstime.com/z/office-table-laptop-computer-smartphone-pen-notebook-coffee-isolated-pure-white-background-laptop-tablet-mock-123158625.jpg);
+    background-image: url('./back.png');
+    background-position: top 40% ;
 }
 .Text__define{
     color: rgb(90, 87, 87);
