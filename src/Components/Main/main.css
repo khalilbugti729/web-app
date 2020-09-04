@@ -1,0 +1,105 @@
+.text{
+    color: rgb(13, 12, 78);
+    font-weight: bold;
+    text-align: start;
+    padding: 1rem;
+    font-size: 3rem;
+    padding-top: 9rem;
+    height: 70vh;
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/z/office-table-laptop-computer-smartphone-pen-notebook-coffee-isolated-pure-white-background-laptop-tablet-mock-123158625.jpg);
+}
+.Text__define{
+    color: rgb(90, 87, 87);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.service{
+    font-size: 3rem;
+    color: rgb(20, 20, 53);
+    font-weight: bold;
+    padding-top: 10%;
+}
+.service__define{
+    color: rgb(90, 87, 87);
+    font-size: 1rem;
+}
+.illustration__png{
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+}
+.illustration__define{
+    font-size: 0.8rem;
+    color: rgb(90, 87, 87);
+}
+.Channel__link{
+    padding-top: 10%;
+    font-size: 1.3rem;
+    color: rgb(90, 87, 87);
+}
+.Channel__link a{
+    font-size: 1.3rem;
+    color:aqua;
+    text-decoration: none;
+}
+.youtube__link{
+    padding-top: 10%;
+    display: flex;
+    padding-left: 1rem;
+}
+.youtube__learn{
+    padding-top: 10%;
+    padding-left: 3rem;
+    font-size: 3rem;
+    color:rgb(20, 20, 53);
+    font-weight: bold;  
+    text-align: start;
+}
+.youtube__define{
+    font-size: 1rem;
+    text-align: start;
+    color: rgb(90, 87, 87);
+    font-weight: 300;
+}
+.youtube__define a{
+    font-size: 1.3rem;
+    color:aqua;
+    font-weight: 600;
+    text-decoration: none;
+}
+.language{
+    padding-top: 10%;
+    font-size: 3rem;
+    color:rgb(20, 20, 53);
+    font-weight: bold;  
+}
+.language__define{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(90, 87, 87);
+}
+.flag{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flag__title{
+    font-size: 1.3rem;
+    color:rgb(20, 20, 53);
+    font-weight: bold;
+    text-align: left;
+}
+.flag__define{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(90, 87, 87);
+}
+.flag__extra{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 3%;
+    justify-content: space-around;
+}
