@@ -1,0 +1,46 @@
+.price__second-part {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+.second-part__upper-line {
+  height: 0.5rem;
+  background-color: rgb(16, 15, 41);
+}
+.second-part__single-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 6rem;
+}
+.single-div__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.single-div__list li h3 {
+  margin: 0px;
+  font-size: small;
+  color: #857c7c;
+  text-align: center;
+}
+.button {
+  width: 11rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  background-color: aqua;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background-color: orange;
+}

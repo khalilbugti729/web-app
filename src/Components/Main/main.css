@@ -104,3 +104,19 @@
     padding-top: 3%;
     justify-content: space-around;
 }
+.price__firt-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price__firt-part > h4 {
+    width: 50%;
+    color: #888282;
+  }
+  .price__firt-part > h1 {
+    color: rgb(10, 22, 53);
+    font-size: 3rem;
+  }
+  .price__layout{
+      display: flex;
+  }

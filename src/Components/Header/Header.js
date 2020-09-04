@@ -100,34 +100,6 @@ const Header = () => {
         <button className="button" variant="contained" className="button">
           Get a Quote
         </button>
-
-        {/* <ul className="header-navbar__list">
-          <li className="header-navbar__item">
-            <a href="www.google.com">
-              Homes
-            </a>
-          </li>
-          <li className="header-navbar__item">
-            <a href="www.google.com">Services</a>
-          </li>
-          <li className="header-navbar__item">
-            <a href="www.google.com">About Us</a>
-          </li>
-          <li className="header-navbar__item">
-            <a href="www.google.com">Features</a>
-          </li>
-          <li className="header-navbar__item">
-            <a href="www.google.com">News</a>
-          </li>
-          <li className="header-navbar__item">
-            <a href="www.google.com">Contacts</a>
-          </li>
-          <li className="header-navbar__item">
-            <button className="button" variant="contained" className="button">
-              Get a Quote
-            </button>
-          </li>
-        </ul> */}
       </nav>
     </header>
   );
