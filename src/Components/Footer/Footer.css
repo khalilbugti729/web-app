@@ -1,0 +1,17 @@
+.main__footer{
+ background-color: rgb(10, 22, 53);
+ display: flex;
+ color: white;
+ padding: 1rem;
+ justify-content:space-around ;
+}
+.footer__list{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer__list  a{
+    color: rgb(78, 77, 77);
+}
