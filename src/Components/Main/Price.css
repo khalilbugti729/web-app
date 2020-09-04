@@ -30,7 +30,7 @@
   text-align: center;
 }
 .button {
-  width: 11rem;
+  width: 16rem;
   height: 3rem;
   margin-top: 0.5rem;
   background-color: aqua;
@@ -44,4 +44,20 @@
 .button:hover,
 .button:active {
   background-color: orange;
+}
+.middle__button {
+  width: 16rem;
+  height: 3.5rem;
+  margin-top: 0.5rem;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.middle__button:hover,
+.middle__button:active {
+  background-color: rgb(12, 50, 99);
 }

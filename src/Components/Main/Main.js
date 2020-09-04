@@ -14,12 +14,8 @@ const Main = () => {
           <br></br> over 120 languages by qualified native speaker translators.
           <br></br>
           <br></br>
-          <button className="button" variant="contained" className="button">
-            Start Now
-          </button>
-          <button className="buttons" variant="contained" className="button">
-            Get a Fare Quote
-          </button>
+          <button className="left__button">Start Now</button>
+          <button className="right__button">Get a Fare Quote</button>
         </div>
       </div>
       <div className="service">
@@ -192,7 +188,7 @@ const Main = () => {
           pairs. We are fast, cost-effective and accurate.
         </h4>
       </div>
-      <div className='price__layout'>
+      <div className="price__layout">
         <Price
           pkgName="Starter Pack"
           pkgPrice="$138"
@@ -208,6 +204,7 @@ const Main = () => {
           item2="Duration (months): 3"
           item3="Online Booking"
           item4="Support"
+          isMiddleButton={true}
         />
         <Price
           pkgName="Advanced Pack"

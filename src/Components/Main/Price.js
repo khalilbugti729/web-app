@@ -1,6 +1,13 @@
 import React from "react";
 import "./Price.css";
-const Price = ({ pkgName, pkgPrice, item1, item2, item3, item4,}) => {
+const Price = ({ pkgName, pkgPrice, item1, item2, item3, item4,isMiddleButton}) => {
+
+let button = 'button';
+if(isMiddleButton){
+    button = 'middle__button';
+}
+  
+
   return (
       <div className="price__second-part">
         <div className="second-part__single-div">
@@ -21,7 +28,7 @@ const Price = ({ pkgName, pkgPrice, item1, item2, item3, item4,}) => {
               <h3>{item4}</h3>
             </li>
           </ul>
-          <button className="button">Buy Plan</button>
+          <button className={button}>Buy Plan</button>
         </div>
       </div>
   );
